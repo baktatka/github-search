@@ -1,0 +1,49 @@
+body {
+  background-color: #c4c4c4;
+}
+.search-input {
+  width: 500px;
+  height: 60px;
+  border: none;
+}
+
+.user-prev {
+  width: 500px;
+  height: 44px;
+  background: #e3e3e3;
+  border: black solid 2px;
+  list-style-type: none;
+}
+.users {
+  margin-top: 40px;
+}
+.add-user {
+  box-sizing: border-box;
+  width: 504px;
+  height: 100px;
+  background-color: #e27beb;
+  list-style-type: none;
+  padding: 8px 16px;
+  border: black solid 1px;
+  position: relative;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.user-close {
+  border: none;
+  background-color: transparent;
+  color: red;
+  position: absolute;
+  font-size: 40px;
+  right: 20px;
+  bottom: 25px;
+}
+
+.user-prev:hover {
+  background: #65cdf9;
+}
